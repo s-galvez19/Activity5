@@ -1,0 +1,30 @@
+ul.videos {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+
+ul.videos li {
+	padding: 16px 0;
+	border-bottom: 1px solid black;
+}
+
+.video h2 {
+	text-align: center;
+}
+
+.videoContainer {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+	margin-bottom: 32px;
+}
+
+.videoContainer iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
